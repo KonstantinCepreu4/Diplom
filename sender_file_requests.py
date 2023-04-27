@@ -30,4 +30,3 @@ def get_order_by_track():
                         params={"t":param_t})
 
 response = get_order_by_track()
-print(response.status_code)
